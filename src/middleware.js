@@ -8,7 +8,7 @@ export default async function middleware(req) {
   const token = await getToken({
     req,
     secret: process.env.NEXTAUTH_SECRET,
-    cookieName: "authjs.session-token",
+    cookieName: "__Secure-authjs.session-token",
   });
 
   // 🎯 Protect ONLY /dashboard routes
