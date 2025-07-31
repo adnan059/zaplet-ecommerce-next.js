@@ -1,6 +1,6 @@
 # 🛒 Zaplet – Modern Gadget Ecommerce Site
 
-It is a gadget ecommerce website built with **Next.js**, **Tailwind CSS**, **ShadCN UI**, **Zustand**, and **NextAuth** etc. It offers a smooth shopping experience, secure Google authentication, dynamic product variants, and admin-only access control.
+It is a gadget ecommerce website built with **Next.js**, **Tailwind CSS**, **ShadCN UI**, **Zustand**, **NextAuth**, **JSON-server** etc. It offers a smooth shopping experience, secure Google authentication, dynamic product variants, and admin-only access control.
 
 ---
 
