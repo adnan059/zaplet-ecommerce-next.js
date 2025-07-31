@@ -1,0 +1,32 @@
+.quantitySelector {
+  @apply space-y-5;
+}
+
+.quantitySelectorTitle {
+  @apply text-[var(--text-color1)] font-semibold block mb-2;
+}
+
+.quantitySelectorContainer {
+  @apply flex items-center gap-3 mb-2;
+}
+
+.quantitySelectorUpdateBtn {
+  @apply px-3 py-1 border rounded bg-[var(--light-color2)] text-white font-bold disabled:opacity-50;
+}
+
+.quantitySelectorInput {
+  @apply w-48 text-center border border-[var(--text-color1)] rounded px-2 py-1 disabled:opacity-50;
+}
+
+.quantitySelectorMaxLimitMsg,
+.quantitySelectorVariantNotice {
+  @apply text-red-500 mt-1 max-w-80;
+}
+
+.quantitySelectorStockUpdateMsg {
+  @apply text-gray-500 mt-1;
+}
+
+.quantitySelectorAddToCartBtn {
+  @apply px-5 py-2 bg-green-600 text-white rounded disabled:bg-gray-400;
+}

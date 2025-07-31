@@ -1,0 +1,7 @@
+.productDetailsImageWrapper {
+  @apply max-w-[350px] w-full aspect-square border-[var(--light-color2)] border-3 px-2;
+}
+
+.productDetailsImageWrapper img {
+  @apply object-contain w-full h-full;
+}

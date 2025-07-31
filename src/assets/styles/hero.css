@@ -1,0 +1,27 @@
+.hero {
+  @apply bg-[url("/images/heroBg.jpg")] bg-cover bg-center bg-no-repeat min-h-[60vh] relative z-20 flex justify-center items-center;
+}
+
+.hero::after {
+  content: "";
+  background: #b8935b50;
+  @apply w-full h-full top-0 left-0 right-0  z-30 absolute;
+}
+
+.heroContent {
+  @apply relative z-40;
+}
+
+.heroTitle {
+  font-size: var(--fs-l);
+  font-family: var(--poppins);
+  @apply text-[var(--light-color1)] font-semibold text-center px-2;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.heroSubtitle {
+  font-size: var(--fs-d);
+
+  @apply mx-auto max-w-[600px] text-[var(--light-color1)] font-normal text-center px-2 mt-6;
+  background-color: rgba(0, 0, 0, 0.7);
+}

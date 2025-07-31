@@ -1,0 +1,119 @@
+header {
+  @apply w-[100%] shadow-xl sticky  top-0 left-0 right-0 z-[100]  bg-[var(--light-color2)];
+}
+
+.headerContainer {
+  @apply max-w-[1170] mx-auto bg-[var(--light-color2)] px-8 min-[1190]:px-0 py-4;
+}
+
+.headerLogo {
+  @apply flex justify-center items-center gap-1 text-white;
+}
+.headerLogo span {
+  font-size: var(--fs-f);
+  font-family: var(--poppins);
+  @apply font-bold;
+}
+
+.mainHeader {
+  @apply flex justify-between items-center;
+}
+
+.userActionBtns {
+  @apply flex justify-center items-center gap-6 text-white;
+}
+
+.userMenuContent {
+  @apply z-[105] bg-[var(--light-color1)] transition duration-300;
+}
+
+.userMenuItem {
+  @apply cursor-pointer text-[var(--dark-color1)] hover:bg-[var(--light-color2)] hover:text-white;
+}
+
+.userMenuItem a {
+  font-size: var(--fs-c);
+}
+
+.userMenuTrigger {
+  @apply outline-none;
+}
+
+.subHeaderContainer {
+  @apply w-full bg-[var(--light-color1)] px-8 min-[1190]:px-0 py-2;
+}
+
+.subHeader {
+  @apply max-w-[1170px] mx-auto flex justify-center  items-center gap-4 sm:gap-0;
+}
+
+.categoryMenubar {
+  @apply w-max text-[var(--light-color2)] block sm:hidden;
+}
+
+.categorySheet {
+  @apply max-w-[260px] z-[200] bg-[var(--light-color1)] [&>button>svg]:w-12 [&>button>svg]:h-12 [&>button>svg]:bg-[var(--dark-color1)] [&>button>svg]:rounded-full [&>button>svg]:p-2 [&>button>svg]:text-[var(--light-color1)];
+}
+
+.categorySheetLogo {
+  @apply flex  items-center gap-1 text-[var(--dark-color2)] mt-20 mb-12;
+}
+
+.categorySheetLogo span {
+  font-size: var(--fs-g);
+  font-family: var(--poppins);
+  @apply font-semibold;
+}
+
+.categorySheetContent {
+  @apply mt-10;
+}
+.categorySheetContent h2 {
+  font-size: var(--fs-d);
+  @apply font-bold text-[var(--dark-color2)] px-3;
+}
+
+.categorySheetContainer {
+  @apply flex flex-col mt-6 gap-4;
+}
+
+.categorySheetContainer button {
+  @apply text-left text-[var(--dark-color2)] py-2 px-3 hover:bg-[var(--dark-color2)] hover:text-[var(--light-color1)]  transition duration-150;
+}
+
+.search {
+  @apply max-w-[600px] w-full sm:max-w-[50%];
+}
+
+.searchForm {
+  @apply flex justify-center items-center;
+}
+
+.searchInput {
+  font-size: var(--fs-c);
+  @apply w-full bg-white rounded-tl-md rounded-bl-md py-[4px]  px-3 text-[var(--light-color2)];
+}
+
+.searchForm button {
+  @apply py-[4px] md:py-[5.8px] px-8 bg-[var(--light-color2)] text-[var(--light-color1)] rounded-tr-md rounded-br-md flex justify-center items-center;
+}
+
+.headerContacts {
+  @apply max-w-[100px] w-full sm:max-w-[50%] flex justify-end items-center;
+}
+
+.headerContactContainer {
+  @apply flex justify-center items-center gap-4;
+}
+
+.headerContactContainer a {
+  @apply text-[var(--light-color2)];
+}
+
+.shoppingCartLink {
+  @apply relative;
+}
+
+.shoppingCartNumber {
+  @apply absolute w-10 h-10 rounded-full bg-[var(--light-color1)] -top-3.5 -right-6 text-xl text-[var(--dark-color1)];
+}

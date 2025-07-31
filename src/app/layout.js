@@ -1,14 +1,24 @@
-import { Geist, Geist_Mono } from "next/font/google";
-import "./globals.css";
+import { Poppins, Nunito } from "next/font/google";
+import "../assets/styles/globals.css";
+import Header from "@/components/layout/header/Header";
+import { Footer } from "@/components/layout/footer/Footer";
+import ThemeProvider from "@/components/shared/ThemeProvider";
+import { Toaster } from "@/components/ui/sonner";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const poppins = Poppins({
   subsets: ["latin"],
+  weight: ["300", "400", "500", "600", "700", "800", "900"],
+  style: ["normal", "italic"],
+  display: "swap",
+  variable: "--poppins",
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const nunito = Nunito({
   subsets: ["latin"],
+  weight: ["300", "400", "500", "600", "700", "800", "900"],
+  style: ["normal", "italic"],
+  display: "swap",
+  variable: "--nunito",
 });
 
 export const metadata = {
@@ -18,11 +28,25 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        {children}
+    <html
+      lang="en"
+      className={`${poppins.variable} ${nunito.variable} antialiased`}
+      suppressHydrationWarning
+      data-scroll-behavior="smooth"
+    >
+      <body>
+        <ThemeProvider
+          props={{
+            attribute: "class",
+            defaultTheme: "system",
+            enableSystem: true,
+          }}
+        >
+          <Header />
+          <main>{children}</main>
+          <Footer />
+        </ThemeProvider>
+        <Toaster />
       </body>
     </html>
   );

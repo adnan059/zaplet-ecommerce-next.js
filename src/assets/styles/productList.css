@@ -1,0 +1,51 @@
+.productList {
+  @apply flex justify-center items-center gap-12 flex-wrap;
+}
+
+.productSorting {
+  @apply mb-16;
+}
+
+.productSortingSelect {
+  @apply block ml-auto text-[var(--text-color1)] dark:text-[var(--dark-color1)] border-2 border-[var(--light-color2)] bg-[var(--light-color1)] p-2;
+}
+
+.productList .item-not-found {
+  font-size: var(--fs-f);
+  @apply h-[25vh] w-full flex justify-center items-center font-semibold;
+}
+
+.productCard {
+  @apply shadow-2xl bg-[var(--productCard-bg-color)] max-w-[300px] w-full
+    border-[var(--light-color2)] border-3 py-6 px-4;
+}
+
+.productCard .productImage {
+  @apply mx-auto mb-8;
+}
+
+.productCard .productTitle {
+  font-size: var(--fs-d);
+  @apply text-center w-full text-[var(--text-color2)] font-bold mb-4;
+}
+
+.productCard .productMeta {
+  @apply flex justify-between;
+}
+
+.productCard .productMeta .price span:nth-of-type(1) {
+  @apply font-semibold;
+}
+
+.productCard .productMeta .price span:nth-of-type(2) {
+  font-size: var(--fs-b);
+  @apply line-through ml-3;
+}
+
+.productCard .productMeta .rating {
+  @apply flex justify-center gap-1 items-center font-semibold;
+}
+
+.productCard .productMeta .rating span > * {
+  @apply fill-amber-400;
+}

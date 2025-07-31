@@ -1,0 +1,10 @@
+.categoryContainer {
+  @apply flex justify-center items-center gap-10 flex-wrap;
+}
+
+.categoryLink {
+  @apply flex font-bold flex-col gap-6 justify-center items-center text-center  p-6 rounded-md w-54 aspect-square bg-[var(--light-color1)] text-[var(--dark-color2)];
+}
+.categoryLink span:nth-of-type(1) {
+  font-size: 3rem;
+}

@@ -1,0 +1,20 @@
+.dashboard {
+  @apply min-h-[100vh];
+}
+.adminInfo {
+  @apply flex justify-end items-center mt-5 gap-2;
+}
+
+.dashboardTabList {
+  @apply p-8;
+}
+
+.dashboardTabsTrigger {
+  font-size: var(--fs-d);
+  @apply p-5;
+}
+
+.dashboardTabContentHeader {
+  font-size: var(--fs-d);
+  @apply font-bold my-5;
+}

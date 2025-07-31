@@ -1,0 +1,7 @@
+.productDetails {
+  @apply flex justify-around items-center md:justify-center  sm:gap-x-20 gap-y-28 flex-col sm:flex-row pt-[95px];
+}
+
+.productContent {
+  @apply space-y-10;
+}

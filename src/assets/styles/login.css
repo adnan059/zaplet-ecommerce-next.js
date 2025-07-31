@@ -1,0 +1,35 @@
+.securityQuestion {
+  @apply min-h-[22vh] flex justify-center items-center flex-col gap-4;
+}
+
+.securityQuestion label {
+  font-size: var(--fs-d);
+}
+
+.securityQuestion span {
+  @apply flex justify-center items-center;
+}
+
+.securityQuestion span input {
+  @apply px-3 py-1 border border-[var(--light-color2)];
+}
+
+.securityQuestion span input.correct {
+  @apply border-green-700 border-2;
+}
+
+.securityQuestion span .tick {
+  @apply text-green-200 bg-green-700 p-1;
+}
+
+.googleLogin {
+  @apply flex justify-center items-center;
+}
+
+.loginBtn {
+  @apply flex justify-center items-center gap-3 bg-blue-600 px-5 py-3 text-white;
+}
+
+.loginBtn:disabled {
+  @apply bg-[var(--light-color2)];
+}

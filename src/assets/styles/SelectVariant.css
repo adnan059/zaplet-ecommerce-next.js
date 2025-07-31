@@ -1,0 +1,39 @@
+.selectVariant {
+  @apply space-y-6;
+}
+
+.selectvariantContainer {
+  @apply space-y-2;
+}
+
+.selectVariantType {
+  @apply text-[var(--text-color1)] capitalize font-semibold;
+}
+
+.selectVariantTypeValue {
+  @apply ml-2 text-[var(--text-color1)] font-normal;
+}
+
+.selectVariantTypeOptions {
+  @apply flex flex-wrap gap-4;
+}
+
+.selectVariantTypeOption {
+  @apply inline-flex   items-center space-x-2 px-3 py-1 rounded border cursor-pointer transition-all;
+}
+
+.selectVariantTypeOption.checked {
+  @apply border-[3px] dark:text-[var(--dark-color1)] border-[var(--light-color2)] bg-[var(--light-color1)] font-semibold;
+}
+
+.selectVariantTypeOption.unchecked {
+  @apply border-[var(--light-color2)] border-[1px];
+}
+
+.selectVariantTypeOptionCheckbox {
+  @apply accent-[var(--light-color2)];
+}
+
+.selectVariantTypeOptionValue {
+  @apply text-[1.6rem];
+}

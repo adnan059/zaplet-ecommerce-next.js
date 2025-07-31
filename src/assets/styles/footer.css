@@ -1,0 +1,40 @@
+.footer {
+  @apply border-t  mt-12  px-8 min-[1190]:px-0 py-8 bg-[var(--light-color2)];
+}
+
+.footerContainer {
+  @apply py-8 px-4 grid grid-cols-1 md:grid-cols-3 gap-6 max-w-[1170] mx-auto;
+}
+
+.footerBrand {
+  font-size: var(--fs-g);
+  font-family: (--poppins);
+  @apply font-semibold text-white;
+}
+
+.footerDesc {
+  font-size: var(--fs-b);
+  @apply mt-1 text-[#eee] max-w-[300px];
+}
+
+.footerSectionTitle {
+  font-size: var(--fs-d);
+  @apply font-medium mb-2 text-white;
+}
+
+.footerLinks {
+  font-size: var(--fs-b);
+  @apply space-y-1 text-[#eee];
+}
+
+.footerLinks a {
+  @apply hover:underline;
+}
+
+.footerSocial {
+  @apply flex space-x-4 text-white;
+}
+
+.footerCopyright {
+  @apply text-center  text-white py-4 border-t;
+}

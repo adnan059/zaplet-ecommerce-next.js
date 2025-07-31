@@ -1,0 +1,160 @@
+@import "./header.css";
+@import "./login.css";
+@import "./dashboard.css";
+@import "./dashboardOrders.css";
+@import "./hero.css";
+@import "./categories.css";
+@import "./productList.css";
+@import "./productDetails.css";
+@import "./productDetailsImage.css";
+@import "./productDetailsInfo.css";
+@import "./SelectVariant.css";
+@import "./QuantitySelector.css";
+@import "./cart.css";
+@import "./footer.css";
+
+:root {
+  /* colors */
+  --dark-color1: #222831;
+  --dark-color2: #393e46;
+  --light-color1: #dfd0b8;
+  --light-color2: #948979;
+  --text-color1: #505050;
+  --text-color2: #272727;
+  --bg-color: #e6e1da;
+  --productCard-bg-color: #dfd0b8;
+
+  /* font sizes */
+  /* font sizes */
+  --fs-a: 1.3rem;
+  --fs-b: 1.5rem;
+  --fs-c: 1.7rem;
+  --fs-d: 1.9rem;
+  --fs-e: 2.1rem;
+  --fs-f: 2.5rem;
+  --fs-g: 2.6rem;
+  --fs-h: 3.3rem;
+  --fs-i: 3.7rem;
+  --fs-j: 4.1rem;
+  --fs-k: 4.5rem;
+  --fs-l: 5.3rem;
+}
+
+.dark {
+  --bg-color: #14120f;
+  --text-color1: #949494;
+  --text-color2: #d3d3d3;
+  --productCard-bg-color: #3f372a;
+}
+
+::selection {
+  @apply bg-[var(--dark-color1)] text-[var(--light-color1)];
+}
+
+html {
+  @apply text-[52.5%] min-[450]:text-[55%] min-[768]:text-[62.5%] scroll-smooth;
+}
+
+body {
+  font-size: var(--fs-c);
+  font-family: var(--nunito);
+  background-color: var(--bg-color);
+  color: var(--text-color1);
+
+  @apply font-normal;
+}
+
+h1 {
+  @apply leading-tight;
+}
+
+h2 {
+  @apply leading-snug;
+}
+
+h3 {
+  @apply leading-normal;
+}
+
+h4,
+h5,
+h6,
+p,
+li,
+div {
+  @apply leading-relaxed;
+}
+
+button,
+a {
+  @apply leading-snug cursor-pointer;
+}
+
+img {
+  @apply block;
+}
+
+section {
+  @apply max-w-[1440] mx-auto px-8 min-[1190]:px-0;
+}
+
+.sectionContainer {
+  @apply max-w-[1170] mx-auto pb-[95px];
+}
+
+.sectionTitle {
+  font-family: var(--poppins);
+  font-size: var(--fs-i);
+
+  @apply max-w-[450px] mx-auto text-center font-semibold
+    text-[var(--text-color1)] relative py-5 mb-24 capitalize;
+}
+
+.sectionTitle::after {
+  border-top: 5px solid var(--light-color2);
+  border-right: 5px solid var(--light-color2);
+  content: "";
+  @apply absolute w-[60%] h-[50%] bg-transparent top-0 right-0;
+}
+
+.sectionTitle::before {
+  border-bottom: 5px solid var(--light-color2);
+
+  border-left: 5px solid var(--light-color2);
+  content: "";
+  @apply absolute w-[60%] h-[50%] bg-transparent bottom-0 left-0;
+}
+
+.errorMessage {
+  font-size: var(--fs-e);
+  @apply text-center capitalize font-bold text-red-500;
+}
+
+.seeMoreBtn {
+  font-size: var(--fs-e);
+  @apply w-max block mt-36 font-bold bg-[var(--dark-color2)] text-[var(--light-color1)] px-6 py-2 mx-auto;
+}
+.not-found {
+  font-size: var(--fs-e);
+  @apply h-[50vh] flex justify-center items-center flex-col gap-6;
+}
+.not-found .go-home {
+  font-size: var(--fs-c);
+  @apply bg-[var(--dark-color2)] px-6 py-2 text-[var(--light-color1)];
+}
+
+.loading {
+  @apply min-h-[100vh] flex justify-center items-center;
+}
+
+.errorPage {
+  @apply min-h-[50vh] flex justify-center items-center flex-col gap-6;
+}
+
+.errorPage p {
+  @apply capitalize;
+}
+
+.errorPage button {
+  @apply bg-[var(--light-color2)] px-3 py-2 text-white flex justify-center items-center gap-1;
+}

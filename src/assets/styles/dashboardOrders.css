@@ -1,0 +1,91 @@
+.dashboardOrderTableContainer {
+  @apply space-y-4;
+}
+
+.dashboardOrderTableFilters {
+  @apply flex flex-wrap gap-4 items-center;
+}
+
+.dashboardOrderTableFilters input {
+  font-size: var(--fs-b);
+  @apply w-64 px-3 py-1 border-2 border-[var(--light-color2)] placeholder:text-[var(--text-color1)];
+}
+
+.dashboardOrderTableFilters select {
+  @apply border-2 border-[var(--light-color2)] px-3 py-1;
+}
+
+.dashboardOrderTableWrapper {
+  @apply overflow-x-auto;
+}
+
+.dashboardOrderTable {
+  @apply min-w-full border;
+}
+
+.dashboardOrderTable thead {
+  @apply bg-gray-100;
+}
+
+.dashboardOrderTable thead th {
+  @apply px-4 py-2 border;
+}
+
+.dashboardOrderTable tbody tr td {
+  @apply px-4 py-2 border capitalize text-center;
+}
+
+.dashboardOrderTablePagination {
+  @apply flex items-center justify-between flex-wrap gap-4;
+}
+
+.dashboardOrderTablePagination > div {
+  @apply space-x-2;
+}
+
+.dashboardOrderTablePagination div button {
+  @apply bg-[var(--light-color2)] text-white px-3 py-1;
+}
+
+.dashboardOrderTablePaginationInput {
+  @apply flex items-center gap-2;
+}
+
+.dashboardOrderTablePaginationInput input {
+  @apply border px-2 py-1 border-[var(--light-color2)] w-20;
+}
+
+/* order dialog or modal */
+
+.dasboardOrderDialogTitle {
+  font-size: var(--fs-e);
+  @apply underline;
+}
+
+.dasboardOrderDialogBody {
+  @apply space-y-2;
+}
+
+.dashboardOrderItemList {
+  @apply list-disc ml-5;
+}
+
+.dashboardOrderStatus > div {
+  @apply space-x-5;
+}
+
+.dashboardOrderStatus > div > select {
+  @apply border-1 border-[var(--light-color2)];
+}
+
+.dashboardOrderStatus > div > button {
+  @apply bg-[var(--light-color2)] text-white px-3 py-1;
+}
+
+.dashboardOrderReturn textarea {
+  @apply border-1 border-[var(--light-color2)] px-3 py-1 resize-none;
+}
+
+.dashboardOrderReturn button {
+  @apply bg-[var(--light-color2)] text-white px-3 py-1 block;
+}

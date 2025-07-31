@@ -1,0 +1,2172 @@
+{
+  "categories": [
+    {
+      "id": "1",
+      "name": "Phone",
+      "slug": "phone",
+      "pic": "📱"
+    },
+    {
+      "id": "2",
+      "name": "Power Bank",
+      "slug": "power-bank",
+      "pic": "⚡"
+    },
+    {
+      "id": "3",
+      "name": "Fan",
+      "slug": "fan",
+      "pic": "☢️"
+    },
+    {
+      "id": "4",
+      "name": "Electric Light",
+      "slug": "electric-light",
+      "pic": "💡"
+    },
+    {
+      "id": "5",
+      "name": "Headset",
+      "slug": "headset",
+      "pic": "🎧"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "iPhone 14 Pro Max",
+      "slug": "iphone-14-pro-max",
+      "product_code": "PH-A14PMX-001",
+      "category": {
+        "id": 1,
+        "name": "phone",
+        "slug": "phone"
+      },
+      "is_variant": true,
+      "brand": {
+        "name": "Apple"
+      },
+      "merchant": {
+        "name": "Packly Bangladesh"
+      },
+      "regular_price": 150000,
+      "discount_price": 145000,
+      "thumbnail": "https://dummyimage.com/720x720/000000/ffffff&text=iPhone+14+Pro+Max",
+      "variations": [
+        {
+          "variant_code": "PH-A14PMX-001A",
+          "attributes": {
+            "ram": "8GB",
+            "rom": "128GB",
+            "color": "Black"
+          },
+          "price": 150000,
+          "discount": 145000,
+          "stock": 50,
+          "image": "https://dummyimage.com/720x720/000000/ffffff&text=iPhone+14+Pro+Max:+8GB"
+        },
+        {
+          "variant_code": "PH-A14PMX-001B",
+          "attributes": {
+            "ram": "12GB",
+            "rom": "256GB",
+            "color": "Blue"
+          },
+          "price": 155000,
+          "discount": 149000,
+          "stock": 48,
+          "image": "https://dummyimage.com/720x720/0000ff/ffffff&text=iPhone+14+Pro+Max:+12GB"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Samsung Galaxy S24 Ultra",
+      "slug": "galaxy-s24-ultra",
+      "product_code": "PH-GS24U-002",
+      "category": {
+        "id": 1,
+        "name": "phone",
+        "slug": "phone"
+      },
+      "is_variant": true,
+      "brand": {
+        "name": "Samsung"
+      },
+      "merchant": {
+        "name": "TeleNova"
+      },
+      "regular_price": 180000,
+      "discount_price": 169000,
+      "thumbnail": "https://dummyimage.com/720x720/4B0082/ffffff&text=Galaxy+S24+Ultra",
+      "variations": [
+        {
+          "variant_code": "PH-GS24U-002A",
+          "attributes": {
+            "ram": "12GB",
+            "rom": "256GB",
+            "color": "Indigo"
+          },
+          "price": 180000,
+          "discount": 169000,
+          "stock": 60,
+          "image": "https://dummyimage.com/720x720/4B0082/ffffff&text=Galaxy+S24:+12GB"
+        },
+        {
+          "variant_code": "PH-GS24U-002B",
+          "attributes": {
+            "ram": "16GB",
+            "rom": "512GB",
+            "color": "Silver"
+          },
+          "price": 195000,
+          "discount": 185000,
+          "stock": 40,
+          "image": "https://dummyimage.com/720x720/c0c0c0/000000&text=S24+Ultra:+16GB"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Xiaomi Poco F6",
+      "slug": "xiaomi-poco-f6",
+      "product_code": "PH-XPF6-003",
+      "category": {
+        "id": 1,
+        "name": "phone",
+        "slug": "phone"
+      },
+      "is_variant": true,
+      "brand": {
+        "name": "Xiaomi"
+      },
+      "merchant": {
+        "name": "TeleNova"
+      },
+      "regular_price": 48000,
+      "discount_price": 44999,
+      "thumbnail": "https://dummyimage.com/720x720/006400/ffffff&text=Poco+F6",
+      "variations": [
+        {
+          "variant_code": "PH-XPF6-003A",
+          "attributes": {
+            "ram": "8GB",
+            "rom": "256GB",
+            "color": "Green"
+          },
+          "price": 48000,
+          "discount": 44999,
+          "stock": 78,
+          "image": "https://dummyimage.com/720x720/006400/ffffff&text=Poco+F6:+8GB"
+        },
+        {
+          "variant_code": "PH-XPF6-003B",
+          "attributes": {
+            "ram": "12GB",
+            "rom": "512GB",
+            "color": "Black"
+          },
+          "price": 52000,
+          "discount": 48999,
+          "stock": 60,
+          "image": "https://dummyimage.com/720x720/000000/ffffff&text=Poco+F6:+12GB"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "OnePlus 12R",
+      "slug": "oneplus-12r",
+      "product_code": "PH-OP12R-004",
+      "category": {
+        "id": 1,
+        "name": "phone",
+        "slug": "phone"
+      },
+      "is_variant": true,
+      "brand": {
+        "name": "OnePlus"
+      },
+      "merchant": {
+        "name": "MobigoTech"
+      },
+      "regular_price": 75000,
+      "discount_price": 70999,
+      "thumbnail": "https://dummyimage.com/720x720/ff0000/ffffff&text=OnePlus+12R",
+      "variations": [
+        {
+          "variant_code": "PH-OP12R-004A",
+          "attributes": {
+            "ram": "8GB",
+            "rom": "128GB",
+            "color": "Red"
+          },
+          "price": 75000,
+          "discount": 70999,
+          "stock": 70,
+          "image": "https://dummyimage.com/720x720/ff0000/ffffff&text=12R:+8GB"
+        },
+        {
+          "variant_code": "PH-OP12R-004B",
+          "attributes": {
+            "ram": "16GB",
+            "rom": "256GB",
+            "color": "Black"
+          },
+          "price": 82000,
+          "discount": 77999,
+          "stock": 40,
+          "image": "https://dummyimage.com/720x720/000000/ffffff&text=12R:+16GB"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Realme GT Neo6",
+      "slug": "realme-gt-neo6",
+      "product_code": "PH-RGTN6-005",
+      "category": {
+        "id": 1,
+        "name": "phone",
+        "slug": "phone"
+      },
+      "is_variant": true,
+      "brand": {
+        "name": "Realme"
+      },
+      "merchant": {
+        "name": "MobigoTech"
+      },
+      "regular_price": 43000,
+      "discount_price": 40999,
+      "thumbnail": "https://dummyimage.com/720x720/ffff00/000000&text=GT+Neo6",
+      "variations": [
+        {
+          "variant_code": "PH-RGTN6-005A",
+          "attributes": {
+            "ram": "8GB",
+            "rom": "256GB",
+            "color": "Yellow"
+          },
+          "price": 43000,
+          "discount": 40999,
+          "stock": 100,
+          "image": "https://dummyimage.com/720x720/ffff00/000000&text=GT+Neo6:+8GB"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Google Pixel 8 Pro",
+      "slug": "pixel-8-pro",
+      "product_code": "PH-GP8P-006",
+      "category": {
+        "id": 1,
+        "name": "phone",
+        "slug": "phone"
+      },
+      "is_variant": true,
+      "brand": {
+        "name": "Google"
+      },
+      "merchant": {
+        "name": "Packly Bangladesh"
+      },
+      "regular_price": 120000,
+      "discount_price": 114999,
+      "thumbnail": "https://dummyimage.com/720x720/ffffff/000000&text=Pixel+8+Pro",
+      "variations": [
+        {
+          "variant_code": "PH-GP8P-006A",
+          "attributes": {
+            "ram": "12GB",
+            "rom": "128GB",
+            "color": "White"
+          },
+          "price": 120000,
+          "discount": 114999,
+          "stock": 68,
+          "image": "https://dummyimage.com/720x720/ffffff/000000&text=Pixel+8+Pro:+12GB"
+        },
+        {
+          "variant_code": "PH-GP8P-006B",
+          "attributes": {
+            "ram": "16GB",
+            "rom": "256GB",
+            "color": "Obsidian"
+          },
+          "price": 130000,
+          "discount": 124999,
+          "stock": 40,
+          "image": "https://dummyimage.com/720x720/1c1c1c/ffffff&text=Pixel+8+Pro:+16GB"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "name": "Motorola Edge 40",
+      "slug": "motorola-edge-40",
+      "product_code": "PH-MEDG40-007",
+      "category": {
+        "id": 1,
+        "name": "phone",
+        "slug": "phone"
+      },
+      "is_variant": true,
+      "brand": {
+        "name": "Motorola"
+      },
+      "merchant": {
+        "name": "Packly Bangladesh"
+      },
+      "regular_price": 56000,
+      "discount_price": 52999,
+      "thumbnail": "https://dummyimage.com/720x720/5D4037/ffffff&text=Motorola+Edge+40",
+      "variations": [
+        {
+          "variant_code": "PH-MEDG40-007A",
+          "attributes": {
+            "ram": "8GB",
+            "rom": "128GB",
+            "color": "Brown"
+          },
+          "price": 56000,
+          "discount": 52999,
+          "stock": 70,
+          "image": "https://dummyimage.com/720x720/5D4037/ffffff&text=Edge+40:+8GB"
+        },
+        {
+          "variant_code": "PH-MEDG40-007B",
+          "attributes": {
+            "ram": "12GB",
+            "rom": "256GB",
+            "color": "Black"
+          },
+          "price": 61000,
+          "discount": 57999,
+          "stock": 40,
+          "image": "https://dummyimage.com/720x720/000000/ffffff&text=Edge+40:+12GB"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "name": "Infinix GT 20 Pro",
+      "slug": "infinix-gt-20-pro",
+      "product_code": "PH-IGT20P-008",
+      "category": {
+        "id": 1,
+        "name": "phone",
+        "slug": "phone"
+      },
+      "is_variant": true,
+      "brand": {
+        "name": "Infinix"
+      },
+      "merchant": {
+        "name": "VoltNest"
+      },
+      "regular_price": 35000,
+      "discount_price": 32999,
+      "thumbnail": "https://dummyimage.com/720x720/FF6F00/ffffff&text=Infinix+GT+20+Pro",
+      "variations": [
+        {
+          "variant_code": "PH-IGT20P-008A",
+          "attributes": {
+            "ram": "8GB",
+            "rom": "256GB",
+            "color": "Orange"
+          },
+          "price": 35000,
+          "discount": 32999,
+          "stock": 88,
+          "image": "https://dummyimage.com/720x720/FF6F00/ffffff&text=GT20+Pro:+8GB"
+        },
+        {
+          "variant_code": "PH-IGT20P-008B",
+          "attributes": {
+            "ram": "12GB",
+            "rom": "256GB",
+            "color": "Black"
+          },
+          "price": 37000,
+          "discount": 34999,
+          "stock": 60,
+          "image": "https://dummyimage.com/720x720/000000/ffffff&text=GT20+Pro:+12GB"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "name": "Tecno Phantom V Flip",
+      "slug": "tecno-phantom-v-flip",
+      "product_code": "PH-TPVFLP-009",
+      "category": {
+        "id": 1,
+        "name": "phone",
+        "slug": "phone"
+      },
+      "is_variant": true,
+      "brand": {
+        "name": "Tecno"
+      },
+      "merchant": {
+        "name": "VoltNest"
+      },
+      "regular_price": 88000,
+      "discount_price": 84999,
+      "thumbnail": "https://dummyimage.com/720x720/9C27B0/ffffff&text=Phantom+V+Flip",
+      "variations": [
+        {
+          "variant_code": "PH-TPVFLP-009A",
+          "attributes": {
+            "ram": "8GB",
+            "rom": "256GB",
+            "color": "Purple"
+          },
+          "price": 88000,
+          "discount": 84999,
+          "stock": 50,
+          "image": "https://dummyimage.com/720x720/9C27B0/ffffff&text=V+Flip:+8GB"
+        },
+        {
+          "variant_code": "PH-TPVFLP-009B",
+          "attributes": {
+            "ram": "12GB",
+            "rom": "512GB",
+            "color": "Black"
+          },
+          "price": 93000,
+          "discount": 89999,
+          "stock": 30,
+          "image": "https://dummyimage.com/720x720/000000/ffffff&text=V+Flip:+12GB"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "name": "Asus ROG Phone 8",
+      "slug": "asus-rog-phone-8",
+      "product_code": "PH-ROG8-010",
+      "category": {
+        "id": 1,
+        "name": "phone",
+        "slug": "phone"
+      },
+      "is_variant": true,
+      "brand": {
+        "name": "Asus"
+      },
+      "merchant": {
+        "name": "PrimeGear"
+      },
+      "regular_price": 145000,
+      "discount_price": 139000,
+      "thumbnail": "https://dummyimage.com/720x720/212121/ffffff&text=ROG+Phone+8",
+      "variations": [
+        {
+          "variant_code": "PH-ROG8-010A",
+          "attributes": {
+            "ram": "16GB",
+            "rom": "512GB",
+            "color": "Dark Gray"
+          },
+          "price": 145000,
+          "discount": 139000,
+          "stock": 33,
+          "image": "https://dummyimage.com/720x720/212121/ffffff&text=ROG+8:+16GB"
+        },
+        {
+          "variant_code": "PH-ROG8-010B",
+          "attributes": {
+            "ram": "24GB",
+            "rom": "1TB",
+            "color": "Black"
+          },
+          "price": 165000,
+          "discount": 159000,
+          "stock": 14,
+          "image": "https://dummyimage.com/720x720/000000/ffffff&text=ROG+8:+24GB"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "name": "Anker PowerCore Slim 10000",
+      "slug": "anker-powercore-slim-10000",
+      "product_code": "PB-ANK10000-011",
+      "category": {
+        "id": 2,
+        "name": "power-bank",
+        "slug": "power-bank"
+      },
+      "is_variant": true,
+      "brand": {
+        "name": "Anker"
+      },
+      "merchant": {
+        "name": "Packly Bangladesh"
+      },
+      "regular_price": 3000,
+      "discount_price": 2799,
+      "thumbnail": "https://dummyimage.com/720x720/000000/ffffff&text=Anker+Slim+10000",
+      "variations": [
+        {
+          "variant_code": "PB-ANK10000-011A",
+          "attributes": {
+            "color": "Black",
+            "ports": "USB-C"
+          },
+          "price": 3000,
+          "discount": 2799,
+          "stock": 37,
+          "image": "https://dummyimage.com/720x720/000000/ffffff&text=Slim+10000+USB-C"
+        },
+        {
+          "variant_code": "PB-ANK10000-011B",
+          "attributes": {
+            "color": "Blue",
+            "ports": "Dual USB"
+          },
+          "price": 3100,
+          "discount": 2899,
+          "stock": 58,
+          "image": "https://dummyimage.com/720x720/0000ff/ffffff&text=Slim+10000+Dual+USB"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "name": "Baseus 20000mAh QuickCharge",
+      "slug": "baseus-quickcharge-20000",
+      "product_code": "PB-BAS20QC-012",
+      "category": {
+        "id": 2,
+        "name": "power-bank",
+        "slug": "power-bank"
+      },
+      "is_variant": true,
+      "brand": {
+        "name": "Baseus"
+      },
+      "merchant": {
+        "name": "PrimeGear"
+      },
+      "regular_price": 3800,
+      "discount_price": 3599,
+      "thumbnail": "https://dummyimage.com/720x720/FFD700/000000&text=Baseus+20000mAh",
+      "variations": [
+        {
+          "variant_code": "PB-BAS20QC-012A",
+          "attributes": {
+            "color": "Gold",
+            "ports": "USB-C + USB-A"
+          },
+          "price": 3800,
+          "discount": 3599,
+          "stock": 50,
+          "image": "https://dummyimage.com/720x720/FFD700/000000&text=Baseus+Gold+QC"
+        },
+        {
+          "variant_code": "PB-BAS20QC-012B",
+          "attributes": {
+            "color": "Black",
+            "ports": "USB-A"
+          },
+          "price": 3700,
+          "discount": 3499,
+          "stock": 50,
+          "image": "https://dummyimage.com/720x720/000000/ffffff&text=Baseus+Black"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "name": "Mi Power Bank 3i",
+      "slug": "mi-power-bank-3i",
+      "product_code": "PB-MI3I-013",
+      "category": {
+        "id": 2,
+        "name": "power-bank",
+        "slug": "power-bank"
+      },
+      "is_variant": true,
+      "brand": {
+        "name": "Xiaomi"
+      },
+      "merchant": {
+        "name": "Packly Bangladesh"
+      },
+      "regular_price": 2800,
+      "discount_price": 2599,
+      "thumbnail": "https://dummyimage.com/720x720/FF5722/ffffff&text=Mi+3i",
+      "variations": [
+        {
+          "variant_code": "PB-MI3I-013A",
+          "attributes": {
+            "color": "Orange",
+            "ports": "USB-C"
+          },
+          "price": 2800,
+          "discount": 2599,
+          "stock": 69,
+          "image": "https://dummyimage.com/720x720/FF5722/ffffff&text=Mi+3i+USB-C"
+        },
+        {
+          "variant_code": "PB-MI3I-013B",
+          "attributes": {
+            "color": "Black",
+            "ports": "Micro USB"
+          },
+          "price": 2650,
+          "discount": 2499,
+          "stock": 30,
+          "image": "https://dummyimage.com/720x720/000000/ffffff&text=Mi+3i+Micro+USB"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "name": "Samsung EB-P3300",
+      "slug": "samsung-eb-p3300",
+      "product_code": "PB-SAMEBP-014",
+      "category": {
+        "id": 2,
+        "name": "power-bank",
+        "slug": "power-bank"
+      },
+      "is_variant": true,
+      "brand": {
+        "name": "Samsung"
+      },
+      "merchant": {
+        "name": "Packly Bangladesh"
+      },
+      "regular_price": 5000,
+      "discount_price": 4799,
+      "thumbnail": "https://dummyimage.com/720x720/607D8B/ffffff&text=Samsung+P3300",
+      "variations": [
+        {
+          "variant_code": "PB-SAMEBP-014A",
+          "attributes": {
+            "color": "Gray",
+            "ports": "USB-C"
+          },
+          "price": 5000,
+          "discount": 4799,
+          "stock": 40,
+          "image": "https://dummyimage.com/720x720/607D8B/ffffff&text=Samsung+USB-C"
+        },
+        {
+          "variant_code": "PB-SAMEBP-014B",
+          "attributes": {
+            "color": "Silver",
+            "ports": "Dual USB"
+          },
+          "price": 5100,
+          "discount": 4899,
+          "stock": 60,
+          "image": "https://dummyimage.com/720x720/C0C0C0/000000&text=Samsung+Dual+USB"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "name": "Realme 33W DartCharge 10000",
+      "slug": "realme-dartcharge-10000",
+      "product_code": "PB-RMDC10000-015",
+      "category": {
+        "id": 2,
+        "name": "power-bank",
+        "slug": "power-bank"
+      },
+      "is_variant": true,
+      "brand": {
+        "name": "Realme"
+      },
+      "merchant": {
+        "name": "Packly Bangladesh"
+      },
+      "regular_price": 3200,
+      "discount_price": 2999,
+      "thumbnail": "https://dummyimage.com/720x720/FFC107/000000&text=Realme+Dart",
+      "variations": [
+        {
+          "variant_code": "PB-RMDC10000-015A",
+          "attributes": {
+            "color": "Yellow",
+            "ports": "USB-C"
+          },
+          "price": 3200,
+          "discount": 2999,
+          "stock": 80,
+          "image": "https://dummyimage.com/720x720/FFC107/000000&text=Dart+USB-C"
+        },
+        {
+          "variant_code": "PB-RMDC10000-015B",
+          "attributes": {
+            "color": "Black",
+            "ports": "USB-A"
+          },
+          "price": 3100,
+          "discount": 2899,
+          "stock": 40,
+          "image": "https://dummyimage.com/720x720/000000/ffffff&text=Dart+USB-A"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "name": "Ugreen 10000mAh Mini PD",
+      "slug": "ugreen-mini-pd-10000",
+      "product_code": "PB-UGMNPD-016",
+      "category": {
+        "id": 2,
+        "name": "power-bank",
+        "slug": "power-bank"
+      },
+      "is_variant": true,
+      "brand": {
+        "name": "Ugreen"
+      },
+      "merchant": {
+        "name": "Packly Bangladesh"
+      },
+      "regular_price": 3100,
+      "discount_price": 2899,
+      "thumbnail": "https://dummyimage.com/720x720/2E7D32/ffffff&text=Ugreen+Mini+PD",
+      "variations": [
+        {
+          "variant_code": "PB-UGMNPD-016A",
+          "attributes": {
+            "color": "Green",
+            "ports": "USB-C"
+          },
+          "price": 3100,
+          "discount": 2899,
+          "stock": 40,
+          "image": "https://dummyimage.com/720x720/2E7D32/ffffff&text=Ugreen+Green+PD"
+        },
+        {
+          "variant_code": "PB-UGMNPD-016B",
+          "attributes": {
+            "color": "Black",
+            "ports": "USB-C + Micro USB"
+          },
+          "price": 3200,
+          "discount": 3099,
+          "stock": 30,
+          "image": "https://dummyimage.com/720x720/000000/ffffff&text=Ugreen+Black"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "name": "Oraimo Toast 10 PD",
+      "slug": "oraimo-toast-10-pd",
+      "product_code": "PB-ORMTPD10-017",
+      "category": {
+        "id": 2,
+        "name": "power-bank",
+        "slug": "power-bank"
+      },
+      "is_variant": true,
+      "brand": {
+        "name": "Oraimo"
+      },
+      "merchant": {
+        "name": "Packly Bangladesh"
+      },
+      "regular_price": 2700,
+      "discount_price": 2499,
+      "thumbnail": "https://dummyimage.com/720x720/8BC34A/000000&text=Oraimo+Toast+10",
+      "variations": [
+        {
+          "variant_code": "PB-ORMTPD10-017A",
+          "attributes": {
+            "color": "Lime",
+            "ports": "USB-A"
+          },
+          "price": 2700,
+          "discount": 2499,
+          "stock": 48,
+          "image": "https://dummyimage.com/720x720/8BC34A/000000&text=Toast+10+USB-A"
+        },
+        {
+          "variant_code": "PB-ORMTPD10-017B",
+          "attributes": {
+            "color": "Black",
+            "ports": "USB-C + USB-A"
+          },
+          "price": 2900,
+          "discount": 2699,
+          "stock": 35,
+          "image": "https://dummyimage.com/720x720/000000/ffffff&text=Toast+10+Black"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "name": "ROCK 20000mAh Dual Output",
+      "slug": "rock-dual-output-20000",
+      "product_code": "PB-RKDO20000-018",
+      "category": {
+        "id": 2,
+        "name": "power-bank",
+        "slug": "power-bank"
+      },
+      "is_variant": true,
+      "brand": {
+        "name": "ROCK"
+      },
+      "merchant": {
+        "name": "BoostMate"
+      },
+      "regular_price": 3900,
+      "discount_price": 3599,
+      "thumbnail": "https://dummyimage.com/720x720/795548/ffffff&text=ROCK+20000",
+      "variations": [
+        {
+          "variant_code": "PB-RKDO20000-018A",
+          "attributes": {
+            "color": "Brown",
+            "ports": "Dual USB"
+          },
+          "price": 3900,
+          "discount": 3599,
+          "stock": 45,
+          "image": "https://dummyimage.com/720x720/795548/ffffff&text=ROCK+Dual+USB"
+        },
+        {
+          "variant_code": "PB-RKDO20000-018B",
+          "attributes": {
+            "color": "Black",
+            "ports": "USB-C"
+          },
+          "price": 4000,
+          "discount": 3799,
+          "stock": 55,
+          "image": "https://dummyimage.com/720x720/000000/ffffff&text=ROCK+USB-C"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "name": "Veger V58 FastCharge",
+      "slug": "veger-v58-fastcharge",
+      "product_code": "PB-VGFCV58-019",
+      "category": {
+        "id": 2,
+        "name": "power-bank",
+        "slug": "power-bank"
+      },
+      "is_variant": true,
+      "brand": {
+        "name": "Veger"
+      },
+      "merchant": {
+        "name": "BoostMate"
+      },
+      "regular_price": 3400,
+      "discount_price": 3199,
+      "thumbnail": "https://dummyimage.com/720x720/E91E63/ffffff&text=Veger+V58",
+      "variations": [
+        {
+          "variant_code": "PB-VGFCV58-019A",
+          "attributes": {
+            "color": "Pink",
+            "ports": "USB-A"
+          },
+          "price": 3400,
+          "discount": 3199,
+          "stock": 60,
+          "image": "https://dummyimage.com/720x720/E91E63/ffffff&text=V58+USB-A"
+        },
+        {
+          "variant_code": "PB-VGFCV58-019B",
+          "attributes": {
+            "color": "Black",
+            "ports": "USB-C + USB-A"
+          },
+          "price": 3600,
+          "discount": 3399,
+          "stock": 40,
+          "image": "https://dummyimage.com/720x720/000000/ffffff&text=V58+Dual+Port"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "name": "Lenovo PB10 Slim 10000",
+      "slug": "lenovo-pb10-slim-10000",
+      "product_code": "PB-LNPB10-020",
+      "category": {
+        "id": 2,
+        "name": "power-bank",
+        "slug": "power-bank"
+      },
+      "is_variant": true,
+      "brand": {
+        "name": "Lenovo"
+      },
+      "merchant": {
+        "name": "Packly Bangladesh"
+      },
+      "regular_price": 3100,
+      "discount_price": 2899,
+      "thumbnail": "https://dummyimage.com/720x720/3F51B5/ffffff&text=Lenovo+PB10",
+      "variations": [
+        {
+          "variant_code": "PB-LNPB10-020A",
+          "attributes": {
+            "color": "Blue",
+            "ports": "USB-C"
+          },
+          "price": 3100,
+          "discount": 2899,
+          "stock": 70,
+          "image": "https://dummyimage.com/720x720/3F51B5/ffffff&text=PB10+USB-C"
+        },
+        {
+          "variant_code": "PB-LNPB10-020B",
+          "attributes": {
+            "color": "Gray",
+            "ports": "USB-A"
+          },
+          "price": 3050,
+          "discount": 2849,
+          "stock": 50,
+          "image": "https://dummyimage.com/720x720/9E9E9E/000000&text=PB10+USB-A"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "name": "Mini USB Desk Fan",
+      "slug": "mini-usb-desk-fan",
+      "product_code": "FN-MINIDESK-021",
+      "category": {
+        "id": 3,
+        "name": "fan",
+        "slug": "fan"
+      },
+      "is_variant": true,
+      "brand": {
+        "name": "Generic"
+      },
+      "merchant": {
+        "name": "CoolTech Hub"
+      },
+      "regular_price": 800,
+      "discount_price": 699,
+      "thumbnail": "https://dummyimage.com/720x720/4CAF50/ffffff&text=Mini+Desk+Fan",
+      "variations": [
+        {
+          "variant_code": "FN-MINIDESK-021A",
+          "attributes": {
+            "color": "Green",
+            "size": "6-inch"
+          },
+          "price": 800,
+          "discount": 699,
+          "stock": 50,
+          "image": "https://dummyimage.com/720x720/4CAF50/ffffff&text=Mini+6in"
+        },
+        {
+          "variant_code": "FN-MINIDESK-021B",
+          "attributes": {
+            "color": "White",
+            "size": "8-inch"
+          },
+          "price": 900,
+          "discount": 799,
+          "stock": 50,
+          "image": "https://dummyimage.com/720x720/ffffff/000000&text=Mini+8in"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "name": "USB Rechargeable Clip Fan",
+      "slug": "usb-clip-fan",
+      "product_code": "FN-CLIPUSB-022",
+      "category": {
+        "id": 3,
+        "name": "fan",
+        "slug": "fan"
+      },
+      "is_variant": true,
+      "brand": {
+        "name": "Xiaomi"
+      },
+      "merchant": {
+        "name": "Gadget Garden"
+      },
+      "regular_price": 950,
+      "discount_price": 850,
+      "thumbnail": "https://dummyimage.com/720x720/2196F3/ffffff&text=Clip+Fan",
+      "variations": [
+        {
+          "variant_code": "FN-CLIPUSB-022A",
+          "attributes": {
+            "color": "Blue",
+            "battery": "2200mAh"
+          },
+          "price": 950,
+          "discount": 850,
+          "stock": 40,
+          "image": "https://dummyimage.com/720x720/2196F3/ffffff&text=Clip+2200mAh"
+        },
+        {
+          "variant_code": "FN-CLIPUSB-022B",
+          "attributes": {
+            "color": "Black",
+            "battery": "3200mAh"
+          },
+          "price": 1050,
+          "discount": 950,
+          "stock": 30,
+          "image": "https://dummyimage.com/720x720/000000/ffffff&text=Clip+3200mAh"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "name": "Smart Touch Fan",
+      "slug": "smart-touch-fan",
+      "product_code": "FN-SMTOUCH-023",
+      "category": {
+        "id": 3,
+        "name": "fan",
+        "slug": "fan"
+      },
+      "is_variant": true,
+      "brand": {
+        "name": "Orico"
+      },
+      "merchant": {
+        "name": "TechNova Mall"
+      },
+      "regular_price": 1400,
+      "discount_price": 1299,
+      "thumbnail": "https://dummyimage.com/720x720/9C27B0/ffffff&text=Smart+Fan",
+      "variations": [
+        {
+          "variant_code": "FN-SMTOUCH-023A",
+          "attributes": {
+            "color": "Purple",
+            "mode": "3-speed"
+          },
+          "price": 1400,
+          "discount": 1299,
+          "stock": 60,
+          "image": "https://dummyimage.com/720x720/9C27B0/ffffff&text=Touch+3spd"
+        },
+        {
+          "variant_code": "FN-SMTOUCH-023B",
+          "attributes": {
+            "color": "Black",
+            "mode": "5-speed"
+          },
+          "price": 1500,
+          "discount": 1399,
+          "stock": 40,
+          "image": "https://dummyimage.com/720x720/000000/ffffff&text=Touch+5spd"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "name": "Portable Neck Fan",
+      "slug": "portable-neck-fan",
+      "product_code": "FN-NECKPORT-024",
+      "category": {
+        "id": 3,
+        "name": "fan",
+        "slug": "fan"
+      },
+      "is_variant": true,
+      "brand": {
+        "name": "Lenovo"
+      },
+      "merchant": {
+        "name": "SmartGrid Mart"
+      },
+      "regular_price": 1800,
+      "discount_price": 1699,
+      "thumbnail": "https://dummyimage.com/720x720/FF9800/ffffff&text=Neck+Fan",
+      "variations": [
+        {
+          "variant_code": "FN-NECKPORT-024A",
+          "attributes": {
+            "color": "Orange",
+            "battery": "2400mAh"
+          },
+          "price": 1800,
+          "discount": 1699,
+          "stock": 30,
+          "image": "https://dummyimage.com/720x720/FF9800/ffffff&text=Neck+2400"
+        },
+        {
+          "variant_code": "FN-NECKPORT-024B",
+          "attributes": {
+            "color": "Black",
+            "battery": "3000mAh"
+          },
+          "price": 1950,
+          "discount": 1799,
+          "stock": 20,
+          "image": "https://dummyimage.com/720x720/000000/ffffff&text=Neck+3000"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "name": "Mini Foldable Fan",
+      "slug": "mini-foldable-fan",
+      "product_code": "FN-FOLDMINI-025",
+      "category": {
+        "id": 3,
+        "name": "fan",
+        "slug": "fan"
+      },
+      "is_variant": true,
+      "brand": {
+        "name": "Joyroom"
+      },
+      "merchant": {
+        "name": "TurboTech BD"
+      },
+      "regular_price": 1200,
+      "discount_price": 1099,
+      "thumbnail": "https://dummyimage.com/720x720/00BCD4/000000&text=Fold+Fan",
+      "variations": [
+        {
+          "variant_code": "FN-FOLDMINI-025A",
+          "attributes": {
+            "color": "Teal",
+            "mode": "Dual Blade"
+          },
+          "price": 1200,
+          "discount": 1099,
+          "stock": 30,
+          "image": "https://dummyimage.com/720x720/00BCD4/000000&text=Fold+Teal"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "name": "Rechargeable Table Fan",
+      "slug": "rechargeable-table-fan",
+      "product_code": "FN-RCTBLFAN-026",
+      "category": {
+        "id": 3,
+        "name": "fan",
+        "slug": "fan"
+      },
+      "is_variant": false,
+      "stock": 50,
+      "brand": {
+        "name": "TP-Link"
+      },
+      "merchant": {
+        "name": "MegaDeals Store"
+      },
+      "regular_price": 1600,
+      "discount_price": 1499,
+      "thumbnail": "https://dummyimage.com/720x720/607D8B/ffffff&text=Rechargeable+Fan",
+      "variations": []
+    },
+    {
+      "id": "27",
+      "name": "Silent Bedroom Fan",
+      "slug": "silent-bedroom-fan",
+      "product_code": "FN-SLNTBEDRM-027",
+      "category": {
+        "id": 3,
+        "name": "fan",
+        "slug": "fan"
+      },
+      "is_variant": false,
+      "stock": 50,
+      "brand": {
+        "name": "Philips"
+      },
+      "merchant": {
+        "name": "GadgetGarage"
+      },
+      "regular_price": 2500,
+      "discount_price": 2399,
+      "thumbnail": "https://dummyimage.com/720x720/E0E0E0/000000&text=Silent+Bedroom+Fan",
+      "variations": []
+    },
+    {
+      "id": "28",
+      "name": "USB Mini Turbo Fan",
+      "slug": "usb-mini-turbo-fan",
+      "product_code": "FN-MINITURBO-028",
+      "category": {
+        "id": 3,
+        "name": "fan",
+        "slug": "fan"
+      },
+      "is_variant": false,
+      "stock": 50,
+      "brand": {
+        "name": "Realme"
+      },
+      "merchant": {
+        "name": "UrbanTech BD"
+      },
+      "regular_price": 1100,
+      "discount_price": 999,
+      "thumbnail": "https://dummyimage.com/720x720/03A9F4/ffffff&text=Mini+Turbo+Fan",
+      "variations": []
+    },
+    {
+      "id": "29",
+      "name": "Foldable Handheld Fan",
+      "slug": "foldable-handheld-fan",
+      "product_code": "FN-FLDHNDHL-029",
+      "category": {
+        "id": 3,
+        "name": "fan",
+        "slug": "fan"
+      },
+      "is_variant": false,
+      "stock": 50,
+      "brand": {
+        "name": "Joyroom"
+      },
+      "merchant": {
+        "name": "GadgetHive"
+      },
+      "regular_price": 900,
+      "discount_price": 849,
+      "thumbnail": "https://dummyimage.com/720x720/F44336/ffffff&text=Handheld+Fan",
+      "variations": []
+    },
+    {
+      "id": "30",
+      "name": "Solar-Powered Table Fan",
+      "slug": "solar-table-fan",
+      "product_code": "FN-SLRFAN-030",
+      "category": {
+        "id": 3,
+        "name": "fan",
+        "slug": "fan"
+      },
+      "is_variant": false,
+      "stock": 50,
+      "brand": {
+        "name": "EcoVolt"
+      },
+      "merchant": {
+        "name": "GreenHub Electronics"
+      },
+      "regular_price": 1800,
+      "discount_price": 1699,
+      "thumbnail": "https://dummyimage.com/720x720/4CAF50/ffffff&text=Solar+Fan",
+      "variations": []
+    },
+    {
+      "id": "31",
+      "name": "RGB LED Strip Light",
+      "slug": "rgb-led-strip-light",
+      "product_code": "LT-RGBSTRIP-031",
+      "category": {
+        "id": 4,
+        "name": "electric-light",
+        "slug": "electric-light"
+      },
+      "is_variant": true,
+      "brand": {
+        "name": "Philips"
+      },
+      "merchant": {
+        "name": "SmartGlow Tech"
+      },
+      "regular_price": 1200,
+      "discount_price": 999,
+      "thumbnail": "https://dummyimage.com/720x720/0000FF/ffffff&text=RGB+Strip",
+      "variations": [
+        {
+          "variant_code": "LT-RGBSTRIP-031A",
+          "attributes": {
+            "length": "1m",
+            "color": "RGB"
+          },
+          "price": 799,
+          "discount": 699,
+          "stock": 70,
+          "image": "https://dummyimage.com/720x720/0000FF/ffffff&text=RGB+Strip+1m"
+        },
+        {
+          "variant_code": "LT-RGBSTRIP-031B",
+          "attributes": {
+            "length": "5m",
+            "color": "RGB"
+          },
+          "price": 1299,
+          "discount": 1099,
+          "stock": 50,
+          "image": "https://dummyimage.com/720x720/0000FF/ffffff&text=RGB+Strip+5m"
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "name": "Touch Sensor Night Light",
+      "slug": "touch-sensor-night-light",
+      "product_code": "LT-TOUCHNLT-032",
+      "category": {
+        "id": 4,
+        "name": "electric-light",
+        "slug": "electric-light"
+      },
+      "is_variant": true,
+      "brand": {
+        "name": "Xiaomi"
+      },
+      "merchant": {
+        "name": "GlowKart"
+      },
+      "regular_price": 750,
+      "discount_price": 699,
+      "thumbnail": "https://dummyimage.com/720x720/FFD54F/000000&text=Touch+Light",
+      "variations": [
+        {
+          "variant_code": "LT-TOUCHNLT-032A",
+          "attributes": {
+            "color": "Warm White",
+            "shape": "Oval"
+          },
+          "price": 750,
+          "discount": 699,
+          "stock": 40,
+          "image": "https://dummyimage.com/720x720/FFD54F/000000&text=Warm+Oval"
+        },
+        {
+          "variant_code": "LT-TOUCHNLT-032B",
+          "attributes": {
+            "color": "Cool White",
+            "shape": "Round"
+          },
+          "price": 780,
+          "discount": 729,
+          "stock": 30,
+          "image": "https://dummyimage.com/720x720/F5F5F5/000000&text=Cool+Round"
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "name": "LED String Fairy Lights",
+      "slug": "led-string-fairy-lights",
+      "product_code": "LT-FAIRYSTR-033",
+      "category": {
+        "id": 4,
+        "name": "electric-light",
+        "slug": "electric-light"
+      },
+      "is_variant": true,
+      "brand": {
+        "name": "Generic"
+      },
+      "merchant": {
+        "name": "Decorify Mart"
+      },
+      "regular_price": 1000,
+      "discount_price": 899,
+      "thumbnail": "https://dummyimage.com/720x720/FFC0CB/000000&text=Fairy+Lights",
+      "variations": [
+        {
+          "variant_code": "LT-FAIRYSTR-033A",
+          "attributes": {
+            "length": "3m",
+            "mode": "Blinking"
+          },
+          "price": 1000,
+          "discount": 899,
+          "stock": 50,
+          "image": "https://dummyimage.com/720x720/FFC0CB/000000&text=Blink+3m"
+        },
+        {
+          "variant_code": "LT-FAIRYSTR-033B",
+          "attributes": {
+            "length": "5m",
+            "mode": "Steady"
+          },
+          "price": 1100,
+          "discount": 999,
+          "stock": 60,
+          "image": "https://dummyimage.com/720x720/FFC0CB/000000&text=Steady+5m"
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "name": "Wall Mounted LED Panel",
+      "slug": "led-wall-panel",
+      "product_code": "LT-WLLPANEL-034",
+      "category": {
+        "id": 4,
+        "name": "electric-light",
+        "slug": "electric-light"
+      },
+      "is_variant": true,
+      "brand": {
+        "name": "Syska"
+      },
+      "merchant": {
+        "name": "TechBliss"
+      },
+      "regular_price": 1800,
+      "discount_price": 1650,
+      "thumbnail": "https://dummyimage.com/720x720/607D8B/ffffff&text=LED+Panel",
+      "variations": [
+        {
+          "variant_code": "LT-WLLPANEL-034A",
+          "attributes": {
+            "size": "12-inch",
+            "color": "Cool White"
+          },
+          "price": 1800,
+          "discount": 1650,
+          "stock": 30,
+          "image": "https://dummyimage.com/720x720/C0C0C0/000000&text=Panel+12in"
+        },
+        {
+          "variant_code": "LT-WLLPANEL-034B",
+          "attributes": {
+            "size": "16-inch",
+            "color": "Warm White"
+          },
+          "price": 2000,
+          "discount": 1850,
+          "stock": 20,
+          "image": "https://dummyimage.com/720x720/FFF3E0/000000&text=Panel+16in"
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "name": "Smart RGB Bulb with App Control",
+      "slug": "smart-rgb-bulb",
+      "product_code": "LT-SMRGBAPP-035",
+      "category": {
+        "id": 4,
+        "name": "electric-light",
+        "slug": "electric-light"
+      },
+      "is_variant": true,
+      "brand": {
+        "name": "Mi"
+      },
+      "merchant": {
+        "name": "BrightNest"
+      },
+      "regular_price": 1150,
+      "discount_price": 1050,
+      "thumbnail": "https://dummyimage.com/720x720/673AB7/ffffff&text=Smart+Bulb",
+      "variations": [
+        {
+          "variant_code": "LT-SMRGBAPP-035A",
+          "attributes": {
+            "watts": "9W",
+            "color": "RGB"
+          },
+          "price": 1150,
+          "discount": 1050,
+          "stock": 40,
+          "image": "https://dummyimage.com/720x720/673AB7/ffffff&text=RGB+9W"
+        },
+        {
+          "variant_code": "LT-SMRGBAPP-035B",
+          "attributes": {
+            "watts": "12W",
+            "color": "RGB"
+          },
+          "price": 1250,
+          "discount": 1150,
+          "stock": 30,
+          "image": "https://dummyimage.com/720x720/673AB7/ffffff&text=RGB+12W"
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "name": "Emergency Rechargeable Lamp",
+      "slug": "emergency-rechargeable-lamp",
+      "product_code": "LT-EMRG-RCLMP-036",
+      "category": {
+        "id": 4,
+        "name": "electric-light",
+        "slug": "electric-light"
+      },
+      "is_variant": false,
+      "stock": 50,
+      "brand": {
+        "name": "Panasonic"
+      },
+      "merchant": {
+        "name": "CityLights BD"
+      },
+      "regular_price": 950,
+      "discount_price": 899,
+      "thumbnail": "https://dummyimage.com/720x720/FFEB3B/000000&text=Emergency+Lamp",
+      "variations": []
+    },
+    {
+      "id": "37",
+      "name": "Rechargeable Book Light",
+      "slug": "rechargeable-book-light",
+      "product_code": "LT-BOOK-RCLMP-037",
+      "category": {
+        "id": 4,
+        "name": "electric-light",
+        "slug": "electric-light"
+      },
+      "is_variant": false,
+      "stock": 50,
+      "brand": {
+        "name": "TP-Link"
+      },
+      "merchant": {
+        "name": "ReadersBay Electronics"
+      },
+      "regular_price": 600,
+      "discount_price": 549,
+      "thumbnail": "https://dummyimage.com/720x720/FFF8E1/000000&text=Book+Light",
+      "variations": []
+    },
+    {
+      "id": "38",
+      "name": "Solar Motion Sensor Light",
+      "slug": "solar-motion-sensor-light",
+      "product_code": "LT-SOLR-MSNSR-038",
+      "category": {
+        "id": 4,
+        "name": "electric-light",
+        "slug": "electric-light"
+      },
+      "is_variant": false,
+      "stock": 48,
+      "brand": {
+        "name": "SunBright"
+      },
+      "merchant": {
+        "name": "GreenPulse Solutions"
+      },
+      "regular_price": 1350,
+      "discount_price": 1199,
+      "thumbnail": "https://dummyimage.com/720x720/4CAF50/ffffff&text=Solar+Sensor+Light",
+      "variations": []
+    },
+    {
+      "id": "39",
+      "name": "Wireless Ceiling Dome Light",
+      "slug": "wireless-ceiling-dome-light",
+      "product_code": "LT-WLS-CEILDOME-039",
+      "category": {
+        "id": 4,
+        "name": "electric-light",
+        "slug": "electric-light"
+      },
+      "is_variant": false,
+      "stock": 50,
+      "brand": {
+        "name": "Syska"
+      },
+      "merchant": {
+        "name": "CeilingLux BD"
+      },
+      "regular_price": 2200,
+      "discount_price": 2099,
+      "thumbnail": "https://dummyimage.com/720x720/E0E0E0/000000&text=Dome+Ceiling+Light",
+      "variations": []
+    },
+    {
+      "id": "40",
+      "name": "Mini LED Work Lamp",
+      "slug": "mini-led-work-lamp",
+      "product_code": "LT-MINI-WRKLED-040",
+      "category": {
+        "id": 4,
+        "name": "electric-light",
+        "slug": "electric-light"
+      },
+      "is_variant": false,
+      "stock": 50,
+      "brand": {
+        "name": "Mi"
+      },
+      "merchant": {
+        "name": "ElectroLab BD"
+      },
+      "regular_price": 950,
+      "discount_price": 899,
+      "thumbnail": "https://dummyimage.com/720x720/9E9E9E/000000&text=LED+Work+Lamp",
+      "variations": []
+    },
+    {
+      "id": "41",
+      "name": "P9 Bluetooth Wireless Headphones",
+      "slug": "p9-bluetooth-headphones",
+      "product_code": "HS-P9BTWIRE-041",
+      "category": {
+        "id": 5,
+        "name": "headset",
+        "slug": "headset"
+      },
+      "is_variant": true,
+      "brand": {
+        "name": "Xiaomi"
+      },
+      "merchant": {
+        "name": "SoundTech BD"
+      },
+      "regular_price": 2100,
+      "discount_price": 1899,
+      "thumbnail": "https://dummyimage.com/720x720/212121/ffffff&text=P9+Bluetooth",
+      "variations": [
+        {
+          "variant_code": "HS-P9BTWIRE-041A",
+          "attributes": {
+            "color": "Black",
+            "mic": "Yes"
+          },
+          "price": 2100,
+          "discount": 1899,
+          "stock": 50,
+          "image": "https://dummyimage.com/720x720/212121/ffffff&text=P9+Black"
+        },
+        {
+          "variant_code": "HS-P9BTWIRE-041B",
+          "attributes": {
+            "color": "White",
+            "mic": "No"
+          },
+          "price": 2000,
+          "discount": 1799,
+          "stock": 30,
+          "image": "https://dummyimage.com/720x720/ffffff/000000&text=P9+White"
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "name": "HyperX Cloud II Gaming Headset",
+      "slug": "hyperx-cloud-ii",
+      "product_code": "HS-HXCLOUDII-042",
+      "category": {
+        "id": 5,
+        "name": "headset",
+        "slug": "headset"
+      },
+      "is_variant": true,
+      "brand": {
+        "name": "HyperX"
+      },
+      "merchant": {
+        "name": "GamingForge"
+      },
+      "regular_price": 9200,
+      "discount_price": 8799,
+      "thumbnail": "https://dummyimage.com/720x720/B71C1C/ffffff&text=Cloud+II",
+      "variations": [
+        {
+          "variant_code": "HS-HXCLOUDII-042A",
+          "attributes": {
+            "color": "Red",
+            "connectivity": "USB"
+          },
+          "price": 9200,
+          "discount": 8799,
+          "stock": 40,
+          "image": "https://dummyimage.com/720x720/B71C1C/ffffff&text=Cloud+Red"
+        },
+        {
+          "variant_code": "HS-HXCLOUDII-042B",
+          "attributes": {
+            "color": "Gunmetal",
+            "connectivity": "3.5mm"
+          },
+          "price": 9400,
+          "discount": 8999,
+          "stock": 35,
+          "image": "https://dummyimage.com/720x720/616161/ffffff&text=Cloud+Gunmetal"
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "name": "Sony WH-CH520 Wireless On-Ear",
+      "slug": "sony-wh-ch520",
+      "product_code": "HS-SNYCH520-043",
+      "category": {
+        "id": 5,
+        "name": "headset",
+        "slug": "headset"
+      },
+      "is_variant": true,
+      "brand": {
+        "name": "Sony"
+      },
+      "merchant": {
+        "name": "AudioVista Mall"
+      },
+      "regular_price": 4800,
+      "discount_price": 4499,
+      "thumbnail": "https://dummyimage.com/720x720/3F51B5/ffffff&text=Sony+CH520",
+      "variations": [
+        {
+          "variant_code": "HS-SNYCH520-043A",
+          "attributes": {
+            "color": "Blue",
+            "mic": "Yes"
+          },
+          "price": 4800,
+          "discount": 4499,
+          "stock": 60,
+          "image": "https://dummyimage.com/720x720/3F51B5/ffffff&text=CH520+Blue"
+        },
+        {
+          "variant_code": "HS-SNYCH520-043B",
+          "attributes": {
+            "color": "Beige",
+            "mic": "Yes"
+          },
+          "price": 4900,
+          "discount": 4599,
+          "stock": 40,
+          "image": "https://dummyimage.com/720x720/F5F5DC/000000&text=CH520+Beige"
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "name": "Boat Rockerz 450 Wireless Headphones",
+      "slug": "boatrockerz-450",
+      "product_code": "HS-BOATROCK450-044",
+      "category": {
+        "id": 5,
+        "name": "headset",
+        "slug": "headset"
+      },
+      "is_variant": true,
+      "brand": {
+        "name": "Boat"
+      },
+      "merchant": {
+        "name": "GadgetBoat BD"
+      },
+      "regular_price": 2300,
+      "discount_price": 1999,
+      "thumbnail": "https://dummyimage.com/720x720/EF6C00/ffffff&text=Rockerz+450",
+      "variations": [
+        {
+          "variant_code": "HS-BOATROCK450-044A",
+          "attributes": {
+            "color": "Orange",
+            "mic": "Yes"
+          },
+          "price": 2300,
+          "discount": 1999,
+          "stock": 69,
+          "image": "https://dummyimage.com/720x720/EF6C00/ffffff&text=Rockerz+Orange"
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "name": "Lenovo HD200 Wireless",
+      "slug": "lenovo-hd200",
+      "product_code": "HS-LENHD200-045",
+      "category": {
+        "id": 5,
+        "name": "headset",
+        "slug": "headset"
+      },
+      "is_variant": true,
+      "brand": {
+        "name": "Lenovo"
+      },
+      "merchant": {
+        "name": "TechNest BD"
+      },
+      "regular_price": 1600,
+      "discount_price": 1450,
+      "thumbnail": "https://dummyimage.com/720x720/607D8B/ffffff&text=Lenovo+HD200",
+      "variations": [
+        {
+          "variant_code": "HS-LENHD200-045A",
+          "attributes": {
+            "color": "Gray",
+            "mic": "Yes"
+          },
+          "price": 1600,
+          "discount": 1450,
+          "stock": 80,
+          "image": "https://dummyimage.com/720x720/607D8B/ffffff&text=HD200+Gray"
+        },
+        {
+          "variant_code": "HS-LENHD200-045B",
+          "attributes": {
+            "color": "Black",
+            "mic": "No"
+          },
+          "price": 1500,
+          "discount": 1399,
+          "stock": 30,
+          "image": "https://dummyimage.com/720x720/000000/ffffff&text=HD200+Black"
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "name": "Mi Dual Driver In-Ear Earphones",
+      "slug": "mi-dual-driver-earphones",
+      "product_code": "HS-MIDUALDRVR-046",
+      "category": {
+        "id": 5,
+        "name": "headset",
+        "slug": "headset"
+      },
+      "is_variant": false,
+      "stock": 50,
+      "brand": {
+        "name": "Mi"
+      },
+      "merchant": {
+        "name": "ToneLab BD"
+      },
+      "regular_price": 1200,
+      "discount_price": 1099,
+      "thumbnail": "https://dummyimage.com/720x720/FF5722/ffffff&text=Mi+Dual+Driver",
+      "variations": []
+    },
+    {
+      "id": "47",
+      "name": "Realme Buds Classic Wired",
+      "slug": "realme-buds-classic-wired",
+      "product_code": "HS-RMBUDCLSC-047",
+      "category": {
+        "id": 5,
+        "name": "headset",
+        "slug": "headset"
+      },
+      "is_variant": false,
+      "stock": 47,
+      "brand": {
+        "name": "Realme"
+      },
+      "merchant": {
+        "name": "WiredSound Market"
+      },
+      "regular_price": 550,
+      "discount_price": 499,
+      "thumbnail": "https://dummyimage.com/720x720/FBC02D/000000&text=Realme+Buds",
+      "variations": []
+    },
+    {
+      "id": "48",
+      "name": "JBL C100SI In-Ear Wired Headphones",
+      "slug": "jbl-c100si-in-ear",
+      "product_code": "HS-JBLC100SI-048",
+      "category": {
+        "id": 5,
+        "name": "headset",
+        "slug": "headset"
+      },
+      "is_variant": false,
+      "stock": 50,
+      "brand": {
+        "name": "JBL"
+      },
+      "merchant": {
+        "name": "SoundCore BD"
+      },
+      "regular_price": 999,
+      "discount_price": 899,
+      "thumbnail": "https://dummyimage.com/720x720/FF3D00/ffffff&text=JBL+C100SI",
+      "variations": []
+    },
+    {
+      "id": "49",
+      "name": "Baseus Encok D02 Wireless Headphones",
+      "slug": "baseus-encok-d02",
+      "product_code": "HS-BASEUSD02-049",
+      "category": {
+        "id": 5,
+        "name": "headset",
+        "slug": "headset"
+      },
+      "is_variant": false,
+      "stock": 50,
+      "brand": {
+        "name": "Baseus"
+      },
+      "merchant": {
+        "name": "GearNest BD"
+      },
+      "regular_price": 2300,
+      "discount_price": 2199,
+      "thumbnail": "https://dummyimage.com/720x720/009688/ffffff&text=Baseus+D02",
+      "variations": []
+    },
+    {
+      "id": "50",
+      "name": "Oraimo FreePods 4 Bluetooth Earbuds",
+      "slug": "oraimo-freepods-4",
+      "product_code": "HS-ORFMOD4-050",
+      "category": {
+        "id": 5,
+        "name": "headset",
+        "slug": "headset"
+      },
+      "is_variant": false,
+      "stock": 45,
+      "brand": {
+        "name": "Oraimo"
+      },
+      "merchant": {
+        "name": "AudioBay BD"
+      },
+      "regular_price": 2850,
+      "discount_price": 2699,
+      "thumbnail": "https://dummyimage.com/720x720/673AB7/ffffff&text=FreePods+4",
+      "variations": []
+    }
+  ],
+  "orders": [
+    {
+      "id": "ORD_20250730_556_QC6AD",
+      "items": [
+        {
+          "product_name": "Asus ROG Phone 8",
+          "product_code": "PH-ROG8-010",
+          "variant_code": "PH-ROG8-010A",
+          "quantity": 2,
+          "unit_discount_price": 139000,
+          "unit_regular_price": 145000,
+          "total_stock": 35,
+          "merchant": "PrimeGear",
+          "attributes": {
+            "ram": "16GB",
+            "rom": "512GB",
+            "color": "Dark Gray"
+          },
+          "image": "https://dummyimage.com/720x720/212121/ffffff&text=ROG+8:+16GB"
+        },
+        {
+          "product_name": "Boat Rockerz 450 Wireless Headphones",
+          "product_code": "HS-BOATROCK450-044",
+          "variant_code": "HS-BOATROCK450-044A",
+          "quantity": 1,
+          "unit_discount_price": 1999,
+          "unit_regular_price": 2300,
+          "total_stock": 70,
+          "merchant": "GadgetBoat BD",
+          "attributes": {
+            "color": "Orange",
+            "mic": "Yes"
+          },
+          "image": "https://dummyimage.com/720x720/EF6C00/ffffff&text=Rockerz+Orange"
+        },
+        {
+          "product_name": "Realme Buds Classic Wired",
+          "product_code": "HS-RMBUDCLSC-047",
+          "variant_code": null,
+          "quantity": 1,
+          "unit_discount_price": 499,
+          "unit_regular_price": 550,
+          "total_stock": 48,
+          "merchant": "WiredSound Market",
+          "attributes": null,
+          "image": "https://dummyimage.com/720x720/FBC02D/000000&text=Realme+Buds"
+        }
+      ],
+      "customerDetails": {
+        "isSaved": true,
+        "fullName": "Peter Parker",
+        "phone": "01354545556",
+        "address": "sdf gfdsgsdfg"
+      },
+      "payment_status": "pending",
+      "delivery_status": "pending",
+      "totalPrice": 280678,
+      "return_reason": null,
+      "createdAt": "2025-07-30T15:40:43.905Z"
+    },
+    {
+      "id": "ORD_20250730_558_J8QWF",
+      "items": [
+        {
+          "product_name": "Google Pixel 8 Pro",
+          "product_code": "PH-GP8P-006",
+          "variant_code": "PH-GP8P-006A",
+          "quantity": 2,
+          "unit_discount_price": 114999,
+          "unit_regular_price": 120000,
+          "total_stock": 70,
+          "merchant": "Packly Bangladesh",
+          "attributes": {
+            "ram": "12GB",
+            "rom": "128GB",
+            "color": "White"
+          },
+          "image": "https://dummyimage.com/720x720/ffffff/000000&text=Pixel+8+Pro:+12GB"
+        }
+      ],
+      "customerDetails": {
+        "isSaved": true,
+        "fullName": "Mark Watson",
+        "phone": "01354545558",
+        "address": "ty467 fdgfd"
+      },
+      "payment_status": "pending",
+      "delivery_status": "pending",
+      "totalPrice": 230118,
+      "return_reason": null,
+      "createdAt": "2025-07-30T15:41:10.089Z"
+    },
+    {
+      "id": "ORD_20250730_756_VO0AF",
+      "items": [
+        {
+          "product_name": "Xiaomi Poco F6",
+          "product_code": "PH-XPF6-003",
+          "variant_code": "PH-XPF6-003A",
+          "quantity": 2,
+          "unit_discount_price": 44999,
+          "unit_regular_price": 48000,
+          "total_stock": 80,
+          "merchant": "TeleNova",
+          "attributes": {
+            "ram": "8GB",
+            "rom": "256GB",
+            "color": "Green"
+          },
+          "image": "https://dummyimage.com/720x720/006400/ffffff&text=Poco+F6:+8GB"
+        }
+      ],
+      "customerDetails": {
+        "isSaved": true,
+        "fullName": "Peter Parker",
+        "phone": "01354545756",
+        "address": "tyt rtyruty"
+      },
+      "payment_status": "pending",
+      "delivery_status": "pending",
+      "totalPrice": 90058,
+      "return_reason": null,
+      "createdAt": "2025-07-30T15:42:03.353Z"
+    },
+    {
+      "id": "ORD_20250731_558_LDXCO",
+      "items": [
+        {
+          "product_name": "Mi Power Bank 3i",
+          "product_code": "PB-MI3I-013",
+          "variant_code": "PB-MI3I-013A",
+          "quantity": 1,
+          "unit_discount_price": 2599,
+          "unit_regular_price": 2800,
+          "total_stock": 70,
+          "merchant": "Packly Bangladesh",
+          "attributes": {
+            "color": "Orange",
+            "ports": "USB-C"
+          },
+          "image": "https://dummyimage.com/720x720/FF5722/ffffff&text=Mi+3i+USB-C"
+        }
+      ],
+      "customerDetails": {
+        "isSaved": true,
+        "fullName": "Peter Parker",
+        "phone": "01354545558",
+        "address": "fg fdgfsdg"
+      },
+      "payment_status": "pending",
+      "delivery_status": "pending",
+      "totalPrice": 2659,
+      "return_reason": null,
+      "createdAt": "2025-07-31T07:35:43.489Z"
+    },
+    {
+      "id": "ORD_20250731_756_C73H7",
+      "items": [
+        {
+          "product_name": "Oraimo FreePods 4 Bluetooth Earbuds",
+          "product_code": "HS-ORFMOD4-050",
+          "variant_code": null,
+          "quantity": 1,
+          "unit_discount_price": 2699,
+          "unit_regular_price": 2850,
+          "total_stock": 46,
+          "merchant": "AudioBay BD",
+          "attributes": null,
+          "image": "https://dummyimage.com/720x720/673AB7/ffffff&text=FreePods+4"
+        }
+      ],
+      "customerDetails": {
+        "isSaved": true,
+        "fullName": "Mark Watson",
+        "phone": "01354545756",
+        "address": "fgdf fghdfh"
+      },
+      "payment_status": "pending",
+      "delivery_status": "pending",
+      "totalPrice": 2759,
+      "return_reason": null,
+      "createdAt": "2025-07-31T07:36:14.593Z"
+    },
+    {
+      "id": "ORD_20250731_756_6SCS1",
+      "items": [
+        {
+          "product_name": "Oraimo Toast 10 PD",
+          "product_code": "PB-ORMTPD10-017",
+          "variant_code": "PB-ORMTPD10-017A",
+          "quantity": 2,
+          "unit_discount_price": 2499,
+          "unit_regular_price": 2700,
+          "total_stock": 50,
+          "merchant": "Packly Bangladesh",
+          "attributes": {
+            "color": "Lime",
+            "ports": "USB-A"
+          },
+          "image": "https://dummyimage.com/720x720/8BC34A/000000&text=Toast+10+USB-A"
+        },
+        {
+          "product_name": "Anker PowerCore Slim 10000",
+          "product_code": "PB-ANK10000-011",
+          "variant_code": "PB-ANK10000-011B",
+          "quantity": 2,
+          "unit_discount_price": 2899,
+          "unit_regular_price": 3100,
+          "total_stock": 60,
+          "merchant": "Packly Bangladesh",
+          "attributes": {
+            "color": "Blue",
+            "ports": "Dual USB"
+          },
+          "image": "https://dummyimage.com/720x720/0000ff/ffffff&text=Slim+10000+Dual+USB"
+        }
+      ],
+      "customerDetails": {
+        "isSaved": true,
+        "fullName": "Karim Ali",
+        "phone": "01354545756",
+        "address": "sdfgsd fdgsdfgsdfg"
+      },
+      "payment_status": "pending",
+      "delivery_status": "pending",
+      "totalPrice": 10856,
+      "return_reason": null,
+      "createdAt": "2025-07-31T07:37:11.073Z"
+    }
+  ]
+}

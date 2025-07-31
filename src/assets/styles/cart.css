@@ -1,0 +1,197 @@
+.cart-form-order {
+  @apply flex gap-x-6 gap-y-28 flex-col items-center justify-center xl:flex-row  xl:justify-between xl:items-start pt-[95px];
+}
+
+.cart-form-order > div {
+  @apply max-w-[600px] w-full  xl:flex-2 px-3;
+}
+
+.cart-form-order > div:nth-of-type(1) {
+  @apply xl:flex-4;
+}
+
+.cartTop {
+  @apply flex flex-col gap-y-4 min-[550]:flex-row min-[550]:justify-between  min-[550]:items-center border-b border-[var(--light-color2)] pb-8 mb-10;
+}
+
+.cartTop h2 {
+  font-size: var(--fs-h);
+  @apply font-semibold text-[var(--text-color2)];
+}
+
+.cartTopSelection {
+  @apply flex  gap-4;
+}
+
+.cartTopSelection span {
+  @apply border border-[var(--light-color2)] px-3 py-2;
+}
+
+.cartTopSelection span input {
+  @apply mr-2 w-6 h-6 accent-[var(--light-color2)];
+}
+
+.cartTopSelection button {
+  @apply bg-[var(--light-color2)] px-3 py-2 text-white;
+}
+
+.cartContainer {
+  @apply space-y-12;
+}
+
+/* --------- cart item -------------*/
+
+.cartItem {
+  @apply shadow-xl dark:shadow-black space-y-2;
+}
+
+.cartItemTop {
+  @apply flex justify-start items-center gap-3 bg-[var(--light-color2)] text-white px-3 py-1.5;
+}
+
+.cartItemTop input {
+  @apply w-6 h-6 accent-[var(--light-color1)];
+}
+
+.cartItemTop h3 {
+  @apply flex items-center gap-2;
+}
+
+.cartItemBottom {
+  @apply p-5 flex flex-col gap-y-6 min-[550]:flex-row min-[550]:justify-start min-[550]:gap-x-10;
+}
+
+.cartItemImage {
+  @apply mx-auto min-[550]:mx-0;
+}
+
+.cartItemImage > img {
+  @apply min-h-[80px] min-w-[80px];
+}
+
+.cartItemInfoAndQty {
+  @apply space-y-5;
+}
+
+.cartItemInfoAndQty h3 {
+  @apply max-w-[370px] font-semibold;
+}
+
+.cartItemQtyAndDelete {
+  @apply flex justify-start gap-8 items-center;
+}
+
+.cartItemQtySelector {
+  @apply flex justify-start items-center;
+}
+
+.cartItemQtySelector input {
+  @apply block w-36 text-center bg-white;
+}
+
+.cartItemQtySelectorButton {
+  @apply px-4 py-[2px] text-white bg-[var(--light-color2)];
+}
+
+.cartItemPrice {
+  @apply flex  min-[550]:ml-auto flex-col gap-4;
+}
+
+.cartItemDiscountPirce {
+  @apply font-semibold space-x-1;
+}
+
+.cartItemRegularPirce {
+  @apply text-[1.4rem] line-through;
+}
+
+/* ---------------- customer form  ------------------- */
+
+.customerForm h2 {
+  font-size: var(--fs-h);
+  @apply text-center font-semibold text-[var(--text-color2)] border-b border-b-[var(--light-color2)] pb-8 mb-10;
+}
+
+.customerForm label {
+  @apply font-semibold;
+}
+
+.customerForm input,
+.customerForm textarea {
+  @apply block border border-[var(--light-color2)] w-full p-2 bg-[#e6e1da] dark:text-[var(--dark-color1)];
+}
+
+.customerFormErrorMsg {
+  font-size: var(--fs-b);
+  @apply text-red-500 mt-1;
+}
+
+.customerFormButton {
+  @apply bg-[var(--light-color2)] text-white px-6 py-2;
+}
+
+.customerFormButton.saved {
+  @apply bg-green-600;
+}
+
+/* ---------------- Order summary  ------------------- */
+
+.orderSummary h2 {
+  font-size: var(--fs-h);
+  @apply text-center font-semibold text-[var(--text-color2)] border-b border-b-[var(--light-color2)] pb-8 mb-10;
+}
+
+.orderSummaryContainer {
+  @apply space-y-4;
+}
+
+.orderSubTotal {
+  @apply flex justify-between;
+}
+
+.orderLocation label {
+  @apply block mb-1;
+}
+
+.orderDeliveryLocationSelection {
+  @apply border border-[var(--light-color2)] px-2 py-1 rounded w-full text-[1.4rem];
+}
+
+.orderDeliveryFee {
+  @apply flex justify-between;
+}
+
+.orderGrandTotal {
+  @apply flex justify-between font-bold;
+}
+
+.orderSummary .termsAndCondition {
+  @apply flex items-center gap-2 mt-2;
+}
+
+.orderSummary .termsAndCondition input {
+  @apply w-6 h-6 accent-[var(--light-color2)];
+}
+
+.orderSummary .termsAndCondition label a {
+  @apply text-blue-600 underline;
+}
+
+.orderConfirmButton {
+  @apply block bg-[var(--light-color2)] text-white px-6 py-2  mt-4;
+}
+
+.orderConfirmButton.active {
+  @apply bg-green-600 hover:bg-green-700;
+}
+
+/* ----- Empty Cart ---- */
+
+.emptyCart {
+  @apply flex justify-center items-center min-h-[50vh];
+}
+
+.emptyCart h2 {
+  font-size: var(--fs-h);
+  @apply font-bold;
+}
